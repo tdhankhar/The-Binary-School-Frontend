@@ -1,0 +1,87 @@
+.component4 {
+  background: rgba(233, 231, 231, 0.5);
+  margin: 0 0 1vw 0;
+}
+
+.component4 .title {
+  width: 100%;
+  text-align: center;
+  padding: 5vw 0 2vw 0;
+}
+
+.component4 .titleLogo {
+  width: 55vw;
+  height: 8vw;
+}
+
+.component4 .body {
+  position: relative;
+  padding-bottom: 7vw;
+}
+
+.component4 .text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.component4 .lines {
+  position: relative;
+}
+
+.component4 .line-1 {
+  position: absolute;
+  top: 2.1vw;
+  left: 17.9vw;
+  font-size: 1.8vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  color: #545454;
+}
+
+.component4 .line-1 span {
+  color: #31b5ff;
+}
+
+.component4 .line-2 {
+  position: absolute;
+  top: 23.5vw;
+  left: 31.25vw;
+  font-size: 1.8vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  color: #545454;
+}
+
+.component4 .line-2 span {
+  color: #ff951a;
+}
+
+.component4 .line-3 {
+  position: absolute;
+  top: 44.1vw;
+  left: 17.9vw;
+  font-size: 1.8vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  color: #545454;
+}
+
+.component4 .line-3 span {
+  color: #15b04a;
+}
+
+.component4 .timeline-svg {
+  width: 100vw;
+  height: 48.8vw;
+}

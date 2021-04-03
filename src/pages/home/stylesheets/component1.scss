@@ -1,0 +1,108 @@
+.component1 {
+  margin: 4.5vw 8vw 5vw 8vw;
+  .component-partition {
+    padding: 0;
+  }
+  .head-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 3.75vw;
+    color: #545454;
+    line-height: 4.75vw;
+    margin: 3.5vw 0 1.5vw 0;
+    span {
+      font-size: 5vw;
+      color: #ff5454;
+    }
+  }
+  .body-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.25vw;
+    color: #969696;
+    margin-right: 4vw;
+    line-height: 2.75vw;
+    span {
+      font-weight: 700;
+      color: #545454;
+    }
+  }
+  .svg1-box {
+    text-align: right;
+    .svg1 {
+      width: 37vw;
+      height: 24vw;
+      #left-dark1 {
+        animation-name: dark-bar-1;
+        animation-duration: 0.5s;
+        animation-delay: 0.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+      }
+      #left-dark2 {
+        animation-name: dark-bar-2;
+        animation-duration: 0.5s;
+        animation-delay: 0.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+      }
+      #left-dark3 {
+        animation-name: dark-bar-3;
+        animation-duration: 0.5s;
+        animation-delay: 0.5s;
+        animation-fill-mode: both;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+      }
+    }
+  }
+}
+
+@keyframes dark-bar-1 {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(1.5);
+  }
+}
+@keyframes dark-bar-2 {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(3.5);
+  }
+}
+@keyframes dark-bar-3 {
+  0% {
+    transform: scaleX(1);
+  }
+  100% {
+    transform: scaleX(0.5);
+  }
+}
+@media screen and (max-width: 575px) {
+  .component1 {
+    .svg1-box {
+      display: none;
+    }
+    .head-text {
+      font-size: 7vw;
+      line-height: 9vw;
+      span {
+        font-size: 9.3vw;
+      }
+    }
+    .body-text {
+      font-size: 2.5vw;
+      line-height: 5vw;
+      margin-right: 12vw;
+    }
+  }
+}

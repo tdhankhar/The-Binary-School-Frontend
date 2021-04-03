@@ -1,0 +1,65 @@
+.footer {
+  position: relative;
+  bottom: 0;
+}
+.footer-items {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  .address,
+  .mail {
+    color: #e5e5e5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-size: 1vw;
+    margin: 0.5vw;
+  }
+  .address-text,
+  .mail-text {
+    margin: 0 0 0 0.5vw;
+  }
+  .media-handlers {
+    font-size: 1vw;
+    margin: 1vw 0.5vw;
+    .twitter-icon,
+    .facebook-icon,
+    .linkedin-icon,
+    .insta-icon,
+    .youtube-icon {
+      height: 2vw;
+      width: 2vw;
+      fill: white;
+      margin-right: 1vw;
+    }
+  }
+  .address-icon,
+  .mail-icon {
+    height: 1.5vw;
+    width: 1.5vw;
+    fill: white;
+    margin: 0 0.25vw;
+  }
+  .horizontal-line {
+    background-color: #cacaca;
+    margin: 5px 0 5px 0;
+  }
+  .nav-link,
+  .nav-link-partition {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    padding: 0.5vw 0.5vw;
+  }
+  .copyright {
+    color: #cacaca;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+    margin: 0 0 10px 0;
+  }
+}
+.footer-svg {
+  width: 100vw;
+  height: 31.25vw;
+}

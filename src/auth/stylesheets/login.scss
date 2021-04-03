@@ -1,0 +1,68 @@
+.login-modal-box {
+  width: 350px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border: none;
+  .modal-header {
+    border: none;
+    padding: 5px 15px 0 0;
+    .close {
+      font-weight: 400;
+      font-size: 2rem;
+      color: #ff9acb;
+    }
+  }
+  .modal-body {
+    padding: 0;
+  }
+  .login-head {
+    margin: 0 20px 30px 20px;
+  }
+  .login-heading {
+    font-weight: 700;
+    font-size: 64px;
+    color: #ff9acb;
+  }
+  .login-subheading {
+    font-weight: 500;
+    font-size: 14px;
+    color: #848484;
+    padding: 15px 25px;
+  }
+  position: relative;
+  .login-body {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    button {
+      width: 90%;
+      margin: 10px 10px 20px 10px;
+      font-weight: 600;
+      font-size: 15px;
+      text-align: left;
+      padding: 7px;
+    }
+    .google-login {
+      button {
+        background-color: white;
+        color: #317196;
+      }
+    }
+    .facebook-login {
+      button {
+        background-color: #3c79e6;
+        color: white;
+      }
+    }
+    .google-icon,
+    .facebook-icon {
+      width: 30px;
+      height: 30px;
+      margin-right: 25px;
+    }
+    .facebook-icon {
+      fill: white;
+    }
+  }
+}

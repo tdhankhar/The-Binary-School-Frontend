@@ -1,0 +1,13 @@
+body {
+  margin-top: 100px;
+}
+/* TODO: scrollbar should be visible but it should not take any width in the DOM */
+html {
+  width: 100vw;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+*:focus {
+  outline: 0 !important;
+}

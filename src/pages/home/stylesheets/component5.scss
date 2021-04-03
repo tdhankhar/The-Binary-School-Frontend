@@ -1,0 +1,84 @@
+.component5 {
+  margin: 2.5vw 7vw;
+  .card {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  .card-svg {
+    margin: 2.5vw auto 0 auto;
+    height: 19.5vw;
+    width: 19.5vw;
+    transition: transform 500ms;
+  }
+  .card-col {
+    margin-top: 2vw;
+  }
+  .card-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.625vw;
+    line-height: 1.95vw;
+    color: #545454;
+  }
+  .card-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3vw;
+    line-height: 1.95vw;
+    color: #848484;
+  }
+  .card-body {
+    padding: 2vw;
+  }
+  .card:hover {
+    transition-timing-function: ease-out;
+  }
+  .card:hover .card-svg {
+    transform: scale(1.1);
+    transition-timing-function: ease-out;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .component5 {
+    .card-svg {
+      margin: 0 auto;
+      height: 25vw;
+      width: 25vw;
+    }
+    .card-title {
+      font-size: 2.25vw;
+    }
+    .card-text {
+      font-size: 1.75vw;
+      line-height: 1.6;
+    }
+    .card-body {
+      padding: 3.5vw 3.5vw;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .component5 {
+    margin: 7.5vw 12vw;
+    .card-svg {
+      margin: 0 auto;
+      height: 35vw;
+      width: 35vw;
+    }
+    .card-title {
+      font-size: 3vw;
+    }
+    .card-text {
+      font-size: 2.5vw;
+      line-height: 1.75;
+    }
+    .card-body {
+      padding: 5vw 10vw;
+    }
+  }
+}
