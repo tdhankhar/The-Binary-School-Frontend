@@ -1,19 +1,101 @@
 .team {
-  .filler {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+  font-family: Poppins;
+  color: #545454;
+  .team-hero-svg {
+    width: 100vw;
+    height: 25.8vw;
   }
-  .under-dev-svg {
-    width: 40vw;
-    height: 20vw;
-    margin: 5vw 0 2vw 0;
+  .team-card {
+    width: 1110px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    box-shadow: 10px 10px 20px #bfbfbf;
+    .profile-info {
+      padding: 20px 50px;
+      .team-card-head {
+        font-size: 34px;
+        font-weight: 300;
+        .name {
+          font-weight: 700;
+        }
+      }
+      .team-card-body {
+        margin-top: 5px;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 2;
+      }
+      .team-card-contact {
+        margin: 20px 0;
+        font-size: 10px;
+        .linkedin-icon {
+          fill: #0077b5;
+          margin-right: 20px;
+          width: 40px;
+          height: 40px;
+        }
+        .github-icon {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+    .profile-img {
+      padding: 0;
+      .team-card-img {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
-  .info {
-    font-family: Poppins;
-    font-size: 2vw;
-    font-weight: 700;
-    color: #f1c0c0;
-    letter-spacing: 3px;
+}
+@media screen and (max-width: 1199px) {
+  .team {
+    .team-card {
+      width: 750px;
+      .profile-info {
+        padding: 10px 35px;
+        .team-card-head {
+          font-size: 26px;
+        }
+        .team-card-body {
+          margin-top: 0;
+          font-size: 13px;
+          font-weight: 300;
+          line-height: 1.8;
+        }
+        .team-card-contact {
+          margin: 7px 0;
+          .linkedin-icon,
+          .github-icon {
+            margin-right: 12px;
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .team {
+    .team-card {
+      width: 300px;
+      .profile-info {
+        padding: 10px 20px;
+        .name::after {
+          content: "\a";
+          white-space: pre;
+        }
+        .team-card-contact {
+          margin: 10px 0;
+          .linkedin-icon,
+          .github-icon {
+            width: 35px;
+            height: 35px;
+          }
+        }
+      }
+    }
   }
 }

@@ -7,6 +7,7 @@ import Component2 from "./components/Component2.js";
 import Component3 from "./components/Component3.js";
 import Component4 from "./components/Component4.js";
 import Component5 from "./components/Component5.js";
+import Component7 from "./components/Component7.js";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Component3 />
       <Component4 />
       <Component5 />
+      <Component7 />
     </div>
   );
 };

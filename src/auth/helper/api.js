@@ -1,5 +1,5 @@
 export const googleLoginAPICall = (accessToken, userId) => {
-  return fetch("http://localhost:5000/api/v1/auth/signin/google", {
+  return fetch(`${process.env.REACT_APP_BACKEND_API_URL}/auth/signin/google`, {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -18,7 +18,7 @@ export const googleLoginAPICall = (accessToken, userId) => {
     });
 };
 export const facebookLoginAPICall = (accessToken, userId) => {
-  return fetch("http://localhost:5000/api/v1/auth/signin/facebook", {
+  return fetch(`${process.env.REACT_APP_BACKEND_API_URL}/auth/signin/facebook`, {
     method: "POST",
     headers: {
       Accept: "application/json",

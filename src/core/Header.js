@@ -79,6 +79,7 @@ const Header = () => {
                     className="user-profile-image"
                     src={user.profile.image_url}
                     alt={user.profile.name}
+                    referrerPolicy="no-referrer"
                   />
                 </Link>
               </li>
