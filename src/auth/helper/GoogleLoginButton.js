@@ -10,9 +10,11 @@ import { authenticate, googleLoginAPICall } from "./api.js";
 const GoogleLoginButton = () => {
   const googleLoginSuccess = (res) => {
     // check if res contains error
+    console.log(res);
     googleLoginAPICall(res.accessToken, res.profileObj.googleId)
       .then((response) => {
         // authenticate
+        console.log(response);
         const user = {
           token: response.jwt_token,
           profile: {
@@ -31,7 +33,7 @@ const GoogleLoginButton = () => {
       });
   };
   const googleLoginFailure = (err) => {
-    console.log(err);
+    console.log("LOGIN FAILED: ", err);
   };
   return (
     <div>
